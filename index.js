@@ -9,7 +9,7 @@ const news = require("./data/news.json");
 app.use(cors());
 
 app.get("/", (req, res) => {
-    res.send("Dragon is running");
+    res.send("The Dragon News is running");
 });
 
 app.get("/categories", (req, res) => {
